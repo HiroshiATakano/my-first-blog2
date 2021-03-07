@@ -54,6 +54,8 @@ h1, h2, h3, h4 {
     color: #000000;
 }
 
-.btn-default {
+.btn btn-default {
   float: right;
+  font-size: 26pt;
+  margin-right: 20px;
 }
