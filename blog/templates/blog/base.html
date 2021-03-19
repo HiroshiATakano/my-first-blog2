@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{% static 'css/blog.css' %}"
   </head>
   <body>
+
     <div class="page-header">
       {% if user.is_authenticated %}
         <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
@@ -27,5 +28,7 @@
           </div>
       </div>
   </div>
+
+  <img src="/media/images/IMG_3625.JPG" width="30%" height="30%" border="0" />
   </body>
 </html>
